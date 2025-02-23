@@ -7,71 +7,92 @@
     <title>LearnHub - Online Learning Platform</title>
 </head>
 
-<body>
-    <header style="border-bottom: 2px solid #eee; padding: 1rem;">
+<body style="margin: 0; font-family: Arial, sans-serif;">
+    <header style="background: #f5f5f5; padding: 1rem; border-bottom: 2px solid #ddd;">
         <nav>
             <table width="100%">
                 <tr>
                     <td width="200">
-                        <h1>🎓 LearnHub</h1>
+                        <h1 style="margin: 0;">🎓 LearnHub</h1>
                     </td>
                     <td align="right">
-                        <a href="index.html">Home</a> |
-                        <a href="courses.html">Courses</a> |
-                        <a href="about.html">About</a> |
-                        <a href="contact.html">Contact</a> |
-                        <a href="login.html"><strong>Login</strong></a>
+                        <a href="index.html"><strong> Home</strong></a> |
+                        <a href="courses.html"> Courses</a> |
+                        <a href="about.html"> About</a> |
+                        <a href="contact.html"> Contact</a> |
+                        <a href="faq.html"> FAQ</a>
                     </td>
                 </tr>
             </table>
         </nav>
     </header>
 
-    <main style="padding: 2rem;">
+    <main style="padding: 2rem; max-width: 1200px; margin: 0 auto;">
         <section>
-            <h2>🌟 Start Learning Today!</h2>
-            <p>Join over 500,000 students worldwide</p>
-            <form>
-                <input type="search" placeholder="Search courses..." size="40">
-                <button type="submit">Search</button>
+            <h2 style="color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">🌟 Start Learning Today!
+            </h2>
+            <p style="margin: 1rem 0;">Join over 500,000 students worldwide</p>
+            <form style="margin: 2rem 0;">
+                <input type="search" placeholder="Search courses..." style="padding: 0.5rem; width: 300px;">
+                <button type="submit"
+                    style="background: #4CAF50; color: white; padding: 0.5rem 1rem; border: none;">Search</button>
             </form>
         </section>
 
-        <hr style="margin: 2rem 0;">
-
-        <section>
-            <h3>📚 Popular Courses</h3>
-            <div style="display: flex; gap: 2rem;">
-                <article style="border: 1px solid #ddd; padding: 1rem; width: 300px;">
-                    <h4>Web Development Bootcamp</h4>
-                    <p>⭐⭐⭐⭐⭐ (4.8/5)</p>
-                    <p>🕒 35 hours • 💰 $149.99</p>
-                    <button>Enroll Now</button>
+        <section style="margin: 3rem 0;">
+            <h3 style="color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">📚 Popular Courses</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
+                <article style="border: 1px solid #ddd; padding: 1rem; width: 45%;">
+                    <div style="height: 250px; overflow: hidden;">
+                        <img src="web.jpg" alt="Web Development" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <h4 style="margin: 1rem 0 0.5rem 0;">💻 Web Development Bootcamp</h4>
+                    <p style="margin: 0.5rem 0;">⭐⭐⭐⭐⭐ (4.8/5)</p>
+                    <p style="margin: 0.5rem 0;">🕒 35 hours • 💰 $149.99</p>
+                    <button style="background: #4CAF50; color: white; padding: 0.5rem 1rem; border: none; width: 100%;">
+                        Enroll Now
+                    </button>
                 </article>
 
-                <article style="border: 1px solid #ddd; padding: 1rem; width: 300px;">
-                    <h4>Data Science Fundamentals</h4>
-                    <p>⭐⭐⭐⭐☆ (4.5/5)</p>
-                    <p>🕒 45 hours • 💰 $199.99</p>
-                    <button>Enroll Now</button>
+                <article style="border: 1px solid #ddd; padding: 1rem; width: 45%;">
+                    <div style="height: 250px; overflow: hidden;">
+                        <img src="data.jpg" alt="Data Science" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <h4 style="margin: 1rem 0 0.5rem 0;">📊 Data Science Fundamentals</h4>
+                    <p style="margin: 0.5rem 0;">⭐⭐⭐⭐☆ (4.5/5)</p>
+                    <p style="margin: 0.5rem 0;">🕒 45 hours • 💰 $199.99</p>
+                    <button style="background: #4CAF50; color: white; padding: 0.5rem 1rem; border: none; width: 100%;">
+                        Enroll Now
+                    </button>
                 </article>
             </div>
         </section>
 
-        <hr style="margin: 2rem 0;">
-
-        <section>
-            <h3>🏆 Why Choose LearnHub?</h3>
-            <ul>
-                <li>✅ Industry-recognized certifications</li>
-                <li>✅ Expert instructors</li>
-                <li>✅ Flexible learning schedule</li>
-                <li>✅ 30-day money-back guarantee</li>
-            </ul>
+        <section style="margin: 3rem 0;">
+            <h3 style="color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">🏆 Why Choose LearnHub?
+            </h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
+                <article style="border: 1px solid #ddd; padding: 1.5rem; width: 45%;">
+                    <h4>✅ Industry-Recognized</h4>
+                    <p>Certifications valued by top employers</p>
+                </article>
+                <article style="border: 1px solid #ddd; padding: 1.5rem; width: 45%;">
+                    <h4>👩🏫 Expert Instructors</h4>
+                    <p>Learn from industry professionals</p>
+                </article>
+                <article style="border: 1px solid #ddd; padding: 1.5rem; width: 45%;">
+                    <h4>⏱️ Flexible Learning</h4>
+                    <p>Study at your own pace</p>
+                </article>
+                <article style="border: 1px solid #ddd; padding: 1.5rem; width: 45%;">
+                    <h4>💸 Money-Back Guarantee</h4>
+                    <p>30-day risk-free trial</p>
+                </article>
+            </div>
         </section>
     </main>
 
-    <footer style="background: #f5f5f5; padding: 2rem; margin-top: 2rem;">
+    <footer style="background: #f5f5f5; padding: 2rem; margin-top: 3rem;">
         <table width="100%">
             <tr>
                 <td width="33%">
@@ -82,7 +103,7 @@
                 </td>
                 <td width="33%">
                     <h4>Quick Links</h4>
-                    <ul>
+                    <ul style="list-style: none; padding: 0;">
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="faq.html">FAQ</a></li>
@@ -91,8 +112,11 @@
                 <td width="33%">
                     <h4>Stay Connected</h4>
                     <form>
-                        <input type="email" placeholder="Enter email for updates">
-                        <button type="submit">Subscribe</button>
+                        <input type="email" placeholder="Enter email for updates" style="padding: 0.5rem;">
+                        <button type="submit"
+                            style="background: #4CAF50; color: white; padding: 0.5rem 1rem; border: none; margin-top: 0.5rem;">
+                            Subscribe
+                        </button>
                     </form>
                 </td>
             </tr>
